@@ -1,0 +1,22 @@
+.dashboard {
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+
+  height: calc(100vh - 80px);
+  box-sizing: border-box;
+  // border: solid red 1px;
+  min-height: 100%;
+
+  button {
+    border: solid black 1px;
+    background: none;
+    outline: none;
+  }
+
+  button:active {
+    border: solid black 1px;
+    background-color: black;
+    color: white;
+  }
+}

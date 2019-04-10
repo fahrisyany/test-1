@@ -1,0 +1,67 @@
+.table {
+  width: 800px;
+  min-height: 50px;
+  margin: 20px 0;
+  // border: solid grey 1px;
+  font-family: Roboto;
+  font-weight: 300;
+  position: relative;
+  td,
+  th {
+    border-collapse: collapse;
+  }
+  th {
+    border-bottom: 1pt solid black;
+    border-collapse: collapse;
+    width: 120px;
+    font-family: Roboto;
+    font-weight: 300;
+  }
+
+  th,
+  td {
+    padding: 10px;
+    // border: none;
+    text-align: left;
+  }
+  .user-pic {
+    border-radius: 50%;
+  }
+
+  .amount_transaction-col {
+    width: 200px;
+  }
+
+  .progress-bar-container {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+
+    margin: auto;
+
+    span {
+      font-size: 14px;
+      margin-left: 10px;
+    }
+  }
+
+  .amount_transaction-col {
+    text-align: center;
+  }
+  .number_row {
+    text-align: right;
+  }
+
+  .progress-bar {
+    width: 100%;
+    border: solid grey 1px;
+    height: 5px;
+    border-radius: 4px;
+    .progress-bar-value {
+      background-color: black;
+      height: 5px;
+    }
+  }
+
+
+}
